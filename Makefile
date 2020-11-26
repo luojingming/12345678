@@ -1,2 +1,5 @@
-demo:demo.c textdemo.c
-	gcc -g demo.c textdemo.c -o demo
+ta:ta.c testta.c
+	gcc -g ta.c testta.c -o ta
+
+clean:
+	rm ta
